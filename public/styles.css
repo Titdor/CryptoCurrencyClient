@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Card Container */
+
+.container {
+    border:5px solid black;
+}
+.volume-change-content {
+    display: flex;
+}
+
+p, h1, h3{
+    margin:20px 20px;
+}
+
+.card-shape h3 {
+    color:orange;
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Grid Container */
+
+.grid-container {
+    display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 60px 100px;
+  margin: 0 20px;
+}
