@@ -14,9 +14,9 @@ function CreateCard() {
         }
         fetchData();
         setInterval(()=>{
-            console.log("This code will run every 30 seconds!");
+            console.log("This code will run every 5 minutes!");
             fetchData();
-        },60000);
+        }, 300000 );
     },[])
     
     return(
