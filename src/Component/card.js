@@ -8,7 +8,7 @@ function CreateCard() {
     const [cryptoData, setCryptoData] = useState([])
     useEffect(()=>{
         async function fetchData()  {
-            const response = await axios.get("http://localhost:3001/getCryptoCurrency")
+            const response = await axios.get("https://cryptocurrencymernrealtimeapi.onrender.com/getCryptoCurrency")
             console.log(response);
             setCryptoData(response.data.data);
         }
